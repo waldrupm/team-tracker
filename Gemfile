@@ -59,6 +59,7 @@ group :development, :test do
   gem 'simplecov'
   gem 'capybara'
   gem 'launchy' #save and open page
+  gem 'factory_bot_rails'
 end
 
 group :development do
