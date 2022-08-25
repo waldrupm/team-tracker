@@ -224,10 +224,22 @@
           null
         ]
       },
+      "/home/codegoat/code/rails/team-tracker/spec/factories/teams.rb": {
+        "lines": [
+          1,
+          1,
+          4,
+          4,
+          4,
+          null,
+          null
+        ]
+      },
       "/home/codegoat/code/rails/team-tracker/config/routes.rb": {
         "lines": [
           1,
           null,
+          1,
           1,
           null,
           null,
@@ -247,9 +259,21 @@
           1,
           1,
           1,
+          1,
+          null,
+          1,
           null,
           1,
           1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
           null,
           null
         ]
@@ -284,16 +308,28 @@
           1,
           1,
           null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
           null
         ]
       },
       "/home/codegoat/code/rails/team-tracker/app/controllers/application_controller.rb": {
         "lines": [
           1,
+          1,
+          1,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1661280984
+    "timestamp": 1661444737
   }
 }

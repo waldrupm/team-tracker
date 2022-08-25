@@ -60,6 +60,7 @@ group :development, :test do
   gem 'capybara'
   gem 'launchy' #save and open page
   gem 'factory_bot_rails'
+  gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
 end
 
 group :development do
