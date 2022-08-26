@@ -1,3 +1,4 @@
 <h2><%= @team.name %></h2>
 <p>Pro: <%= @team.pro ? 'Yes' : 'No' %></p>
 <p>Finish last year: <%= @team.last_year_finish %></p>
+<p><%= link_to "See Team Roster", team_player_list_path(@team) %></p>

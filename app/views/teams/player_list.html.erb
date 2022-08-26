@@ -1,4 +1,4 @@
-<h2><%= @team.name %> Players List<h2>
+<h2 class="text-xl font-semibold text-indigo-800 mb-4"><%= @team.name.titleize %> Player List<h2>
 
 <% @team.players.each do |player| %>
   <div>

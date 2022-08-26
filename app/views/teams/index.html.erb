@@ -1,5 +1,5 @@
-<h2 class="block">Teams List</h2>
+<h2 class="text-xl font-semibold text-indigo-800 mb-4">Teams List</h2>
 
 <% @teams.each do |team| %>
-  <p><%= team.name %></p>
+  <p><%= team.name %> - (<%= link_to "Roster", team_player_list_path(team)%>) <span class="text-xs">Players: <%= team.players.count %> | Created at: <%= team.created_at.strftime('%m/%d/%Y - %H:%M') %></span></p>
 <% end %>

@@ -7,6 +7,8 @@ describe 'the teams index page' do
                         
     visit teams_path
 
+    puts page.body
+
     expect(page).to have_content(team_1.name)
     expect(page).to have_content(team_2.name)
   end

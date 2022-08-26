@@ -6,6 +6,6 @@ Rails.application.routes.draw do
 
   get '/players', to: 'players#index'
   get '/players/:id', to: 'players#show', as: 'player'
-  # Defines the root path route ("/")
-  # root "articles#index"
+
+  root 'teams#index'
 end
