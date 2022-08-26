@@ -228,9 +228,10 @@
         "lines": [
           1,
           1,
-          4,
-          4,
-          4,
+          5,
+          5,
+          5,
+          1,
           null,
           null
         ]
@@ -239,9 +240,9 @@
         "lines": [
           1,
           1,
-          4,
-          4,
-          4,
+          8,
+          8,
+          8,
           null,
           null
         ]
@@ -254,6 +255,7 @@
           1,
           null,
           1,
+          1,
           null,
           null,
           null
@@ -262,6 +264,26 @@
       "/home/codegoat/code/rails/team-tracker/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/home/codegoat/code/rails/team-tracker/spec/features/players/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
           null
         ]
       },
@@ -320,6 +342,7 @@
       "/home/codegoat/code/rails/team-tracker/app/models/player.rb": {
         "lines": [
           1,
+          1,
           null
         ]
       },
@@ -344,12 +367,17 @@
       "/home/codegoat/code/rails/team-tracker/app/models/team.rb": {
         "lines": [
           1,
+          1,
           null
         ]
       },
       "/home/codegoat/code/rails/team-tracker/app/controllers/players_controller.rb": {
         "lines": [
           1,
+          1,
+          1,
+          null,
+          null,
           1,
           1,
           null,
@@ -384,6 +412,6 @@
         ]
       }
     },
-    "timestamp": 1661448431
+    "timestamp": 1661467021
   }
 }
