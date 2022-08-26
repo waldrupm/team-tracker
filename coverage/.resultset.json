@@ -228,9 +228,9 @@
         "lines": [
           1,
           1,
-          5,
-          5,
-          5,
+          9,
+          9,
+          9,
           1,
           null,
           null
@@ -240,9 +240,9 @@
         "lines": [
           1,
           1,
-          8,
-          8,
-          8,
+          10,
+          10,
+          10,
           null,
           null
         ]
@@ -251,6 +251,7 @@
         "lines": [
           1,
           null,
+          1,
           1,
           1,
           null,
@@ -300,6 +301,30 @@
           null,
           1,
           1,
+          null,
+          null
+        ]
+      },
+      "/home/codegoat/code/rails/team-tracker/spec/features/teams/player_list_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
           null,
           null
         ]
@@ -408,10 +433,14 @@
           null,
           null,
           null,
+          null,
+          1,
+          1,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1661467021
+    "timestamp": 1661534377
   }
 }

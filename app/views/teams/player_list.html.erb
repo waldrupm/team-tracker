@@ -1,0 +1,9 @@
+<h2><%= @team.name %> Players List<h2>
+
+<% @team.players.each do |player| %>
+  <div>
+    <h3><%= player.name %></h3>
+    <p>Drafted: <%= player.drafted ? 'Yes' : 'No' %></p>
+    <p>Rating: <%= player.rating %></p>
+  </div>
+<% end %>

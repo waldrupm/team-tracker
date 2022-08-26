@@ -11,4 +11,8 @@ class TeamsController < ApplicationController
     end
 
   end
+
+  def player_list
+    @team = Team.find(params[:id])
+  end
 end
