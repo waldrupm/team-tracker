@@ -254,11 +254,13 @@
           1,
           1,
           1,
+          1,
+          1,
           null,
           1,
           1,
           null,
-          null,
+          1,
           null
         ]
       },
@@ -302,6 +304,27 @@
           1,
           null,
           1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/home/codegoat/code/rails/team-tracker/spec/features/teams/new_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
           1,
           null,
           null
@@ -395,6 +418,8 @@
         "lines": [
           1,
           1,
+          null,
+          1,
           null
         ]
       },
@@ -424,7 +449,7 @@
         "lines": [
           1,
           1,
-          1,
+          3,
           null,
           null,
           1,
@@ -439,10 +464,29 @@
           1,
           1,
           null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1661536780
+    "timestamp": 1661800460
   }
 }
