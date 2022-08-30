@@ -2,5 +2,5 @@
 <%= link_to "New Team", new_team_path, class: "mb-6 bg-indigo-600 border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-white hover:bg-indigo-800"%>
 
 <% @teams.each do |team| %>
-  <p><%= team.name %> - (<%= link_to "Roster", team_player_list_path(team)%>) <span class="text-xs">Players: <%= team.players.count %> | Created at: <%= team.created_at.strftime('%m/%d/%Y - %H:%M') %></span></p>
+  <p><%= link_to team.name, team_path(team) %> - (<%= link_to "Roster", team_player_list_path(team)%>) <span class="text-xs">Players: <%= team.players.count %> | Created at: <%= team.created_at.strftime('%m/%d/%Y - %H:%M') %></span></p>
 <% end %>

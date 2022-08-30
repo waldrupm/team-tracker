@@ -1,4 +1,6 @@
 <h2><%= @team.name %></h2>
+<%= link_to "Update Team", edit_team_path(@team), class: "mb-6 bg-indigo-600 border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-white hover:bg-indigo-800"%>
+
 <p>Pro: <%= @team.pro ? 'Yes' : 'No' %></p>
 <p>Finish last year: <%= @team.last_year_finish %></p>
 <p><%= link_to "See Team Roster", team_player_list_path(@team) %></p>
