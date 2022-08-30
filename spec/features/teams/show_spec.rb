@@ -35,7 +35,7 @@ describe 'the team show page' do
       check 'Pro Team'
       click_on "Update Team"
 
-      expect(current_path).to eq "/teams/#{origina_team.id}"
+      expect(current_path).to eq "/teams/#{original_team.id}"
       expect(page).to have_content(new_name)
       expect(page).to have_content(new_last_year_finish)
       expect(page).to have_content("Yes")

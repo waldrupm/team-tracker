@@ -1,15 +1,15 @@
 class TeamsController < ApplicationController
+  before_action :set_team, only: %i[player_list edit update]
   def index
     @teams = Team.order(created_at: :desc)
   end
 
   def show
-    if(@team = Team.find_by_id(params[:id])).present?
+    if (@team = Team.find_by_id(params[:id])).present?
 
     else
       content_not_found
     end
-
   end
 
   def new
@@ -19,19 +19,32 @@ class TeamsController < ApplicationController
   def create
     @team = Team.new(team_params)
 
-      if @team.save
-        redirect_to teams_url, notice: "Team was successfully created."
+    if @team.save
+      redirect_to teams_url, notice: 'Team was successfully created.'
+    else
+      render :new, status: :unprocessable_entity
+    end
+  end
+
+  def edit; end
+
+  def update
+      if @team.update(team_params)
+        redirect_to team_url(@team), notice: "Team was successfully updated."
       else
-        render :new, status: :unprocessable_entity
+        render :edit, status: :unprocessable_entity
       end
   end
 
-  def player_list
-    @team = Team.find(params[:id])
-  end
+  def player_list; end
 
   private
+
   def team_params
     params.require(:team).permit(:name, :last_year_finish, :pro)
+  end
+
+  def set_team
+    @team = Team.find(params[:id])
   end
 end
