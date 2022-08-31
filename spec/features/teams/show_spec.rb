@@ -40,5 +40,15 @@ describe 'the team show page' do
       expect(page).to have_content(new_last_year_finish)
       expect(page).to have_content("Yes")
     end
+    scenario 'invalid team info causes redirect to edit form' do
+      original_team = create(:team)
+
+      visit edit_team_path(original_team)
+
+      fill_in "team_name", with: ""
+      click_on "Update Team"
+
+      expect(page).to have_content("Name can't be blank")
+    end
   end
 end
