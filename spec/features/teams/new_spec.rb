@@ -14,4 +14,12 @@ feature 'User creates a new team' do
 
     expect(page).to have_content(team_name)
   end
+  scenario 'with invalid information the team is not saved and errors shown' do
+    visit new_team_path
+    fill_in "Last year finish", with: 33
+    check 'Pro Team'
+    click_on "Create Team"
+
+    expect(page).to have_content("Name can't be blank")
+  end
 end
