@@ -16,4 +16,15 @@ feature 'User creates a new player' do
     expect(page).to have_content(rating)
     expect(page).to have_content("Yes")
   end
+  scenario 'invalid info is entered and they see the new player form' do
+    team = create(:team)
+    visit new_team_player_path(team)
+    fill_in "Rating", with: "77"
+    check 'Drafted'
+    click_on "Create Player"
+
+    puts current_path
+    expect(page).to have_content("Name can't be blank")
+    expect(page).to have_http_status(:unprocessable_entity)
+  end
 end
