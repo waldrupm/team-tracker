@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/codegoat/code/rails/team-tracker/config/environment.rb": {
+      "/Users/wally/code/rails/team-tracker/config/environment.rb": {
         "lines": [
           null,
           1,
@@ -10,7 +10,7 @@
           1
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/config/application.rb": {
+      "/Users/wally/code/rails/team-tracker/config/application.rb": {
         "lines": [
           1,
           null,
@@ -60,7 +60,7 @@
           null
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/config/boot.rb": {
+      "/Users/wally/code/rails/team-tracker/config/boot.rb": {
         "lines": [
           1,
           null,
@@ -68,7 +68,7 @@
           1
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/config/environments/test.rb": {
+      "/Users/wally/code/rails/team-tracker/config/environments/test.rb": {
         "lines": [
           1,
           null,
@@ -132,7 +132,7 @@
           null
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/config/initializers/assets.rb": {
+      "/Users/wally/code/rails/team-tracker/config/initializers/assets.rb": {
         "lines": [
           null,
           null,
@@ -148,7 +148,7 @@
           null
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/config/initializers/content_security_policy.rb": {
+      "/Users/wally/code/rails/team-tracker/config/initializers/content_security_policy.rb": {
         "lines": [
           null,
           null,
@@ -177,7 +177,7 @@
           null
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/config/initializers/filter_parameter_logging.rb": {
+      "/Users/wally/code/rails/team-tracker/config/initializers/filter_parameter_logging.rb": {
         "lines": [
           null,
           null,
@@ -189,7 +189,7 @@
           null
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/config/initializers/inflections.rb": {
+      "/Users/wally/code/rails/team-tracker/config/initializers/inflections.rb": {
         "lines": [
           null,
           null,
@@ -209,7 +209,7 @@
           null
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/config/initializers/permissions_policy.rb": {
+      "/Users/wally/code/rails/team-tracker/config/initializers/permissions_policy.rb": {
         "lines": [
           null,
           null,
@@ -224,7 +224,7 @@
           null
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/spec/factories/players.rb": {
+      "/Users/wally/code/rails/team-tracker/spec/factories/players.rb": {
         "lines": [
           1,
           1,
@@ -236,7 +236,7 @@
           null
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/spec/factories/teams.rb": {
+      "/Users/wally/code/rails/team-tracker/spec/factories/teams.rb": {
         "lines": [
           1,
           1,
@@ -247,7 +247,7 @@
           null
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/config/routes.rb": {
+      "/Users/wally/code/rails/team-tracker/config/routes.rb": {
         "lines": [
           1,
           null,
@@ -268,36 +268,13 @@
           null
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/app/helpers/application_helper.rb": {
+      "/Users/wally/code/rails/team-tracker/app/helpers/application_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/spec/features/players/new_team_player_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/home/codegoat/code/rails/team-tracker/spec/features/players/show_spec.rb": {
+
         "lines": [
           1,
           null,
@@ -317,7 +294,7 @@
           null
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/spec/features/teams/index_spec.rb": {
+      "/Users/wally/code/rails/team-tracker/spec/features/teams/index_spec.rb": {
         "lines": [
           1,
           null,
@@ -334,7 +311,7 @@
           null
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/spec/features/teams/new_spec.rb": {
+      "/Users/wally/code/rails/team-tracker/spec/features/teams/new_spec.rb": {
         "lines": [
           1,
           null,
@@ -363,7 +340,7 @@
           null
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/spec/features/teams/player_list_spec.rb": {
+      "/Users/wally/code/rails/team-tracker/spec/features/teams/player_list_spec.rb": {
         "lines": [
           1,
           null,
@@ -387,7 +364,7 @@
           null
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/spec/features/teams/show_spec.rb": {
+      "/Users/wally/code/rails/team-tracker/spec/features/teams/show_spec.rb": {
         "lines": [
           1,
           null,
@@ -445,7 +422,7 @@
           null
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/spec/models/team_spec.rb": {
+      "/Users/wally/code/rails/team-tracker/spec/models/team_spec.rb": {
         "lines": [
           1,
           null,
@@ -456,7 +433,7 @@
           null
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/app/models/team.rb": {
+      "/Users/wally/code/rails/team-tracker/app/models/team.rb": {
         "lines": [
           1,
           1,
@@ -465,21 +442,21 @@
           null
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/app/models/application_record.rb": {
+      "/Users/wally/code/rails/team-tracker/app/models/application_record.rb": {
         "lines": [
           1,
           1,
           null
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/app/models/player.rb": {
+      "/Users/wally/code/rails/team-tracker/app/models/player.rb": {
         "lines": [
           1,
           1,
           null
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/app/controllers/players_controller.rb": {
+      "/Users/wally/code/rails/team-tracker/app/controllers/players_controller.rb": {
         "lines": [
           1,
           1,
@@ -513,7 +490,7 @@
           null
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/app/controllers/application_controller.rb": {
+      "/Users/wally/code/rails/team-tracker/app/controllers/application_controller.rb": {
         "lines": [
           1,
           1,
@@ -522,7 +499,7 @@
           null
         ]
       },
-      "/home/codegoat/code/rails/team-tracker/app/controllers/teams_controller.rb": {
+      "/Users/wally/code/rails/team-tracker/app/controllers/teams_controller.rb": {
         "lines": [
           1,
           1,
@@ -577,6 +554,6 @@
         ]
       }
     },
-    "timestamp": 1662068912
+
   }
 }
