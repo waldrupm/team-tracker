@@ -1,8 +1,8 @@
-<h2 class="text-xl font-semibold text-indigo-800 mb-4">Teams List</h2>
+<h2 class="text-xl font-semibold text-indigo-800 mb-4">Player List</h2>
 <% @players.each do |player| %>
-  <div>
-    <h3><%= link_to player.name, player_path(player) %></h3>
-    <p><%= player.drafted ? 'Yes' : 'No' %></p>
-    <p><%= player.rating %></p>
+  <div class="mb-2 border-2 rounded-md p-2">
+    <h3 class="font-semibold text-lg"><%= link_to player.name, player_path(player) %> - <%= player.team.name %></h3>
+    <p>Drafted: <%= player.drafted ? 'Yes' : 'No' %></p>
+    <p>Rating: <%= player.rating %></p>
   </div>
 <% end %>
