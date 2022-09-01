@@ -1,4 +1,5 @@
 <h2 class="text-xl font-semibold text-indigo-800 mb-4"><%= @team.name.titleize %> Player List<h2>
+<%= link_to "New Player on #{@team.name}", new_team_player_path(@team), class: "mb-6 bg-indigo-600 border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-white hover:bg-indigo-800"%>
 
 <% @team.players.each do |player| %>
   <div>
