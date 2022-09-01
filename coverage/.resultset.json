@@ -240,9 +240,9 @@
         "lines": [
           1,
           1,
+          13,
           12,
-          11,
-          12,
+          13,
           null,
           null
         ]
@@ -251,6 +251,8 @@
         "lines": [
           1,
           null,
+          1,
+          1,
           1,
           1,
           1,
@@ -272,7 +274,7 @@
           null
         ]
       },
-      "/Users/wally/code/rails/team-tracker/spec/features/players/show_spec.rb": {
+
         "lines": [
           1,
           null,
@@ -464,6 +466,27 @@
           1,
           1,
           null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
           null
         ]
       },
@@ -525,12 +548,12 @@
           null,
           null,
           1,
-          5,
+          6,
           null,
           null
         ]
       }
     },
-    "timestamp": 1661994643
+
   }
 }
