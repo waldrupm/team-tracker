@@ -1,10 +1,10 @@
 class PlayersController < ApplicationController
+  before_action :set_player, only: [:show, :edit]
   def index
     @players = Player.all
   end
 
   def show
-    @player = Player.find(params[:id])
   end
   def new
     @team = Team.find(params[:team_id])
@@ -21,8 +21,14 @@ class PlayersController < ApplicationController
       render :new, status: :unprocessable_entity
     end
   end
+  
+  def edit
+  end
 
   private
+  def set_player
+    @player = Player.find(params[:id])
+  end
   
   def player_params
     params.require(:player).permit(:name, :rating, :drafted, :team_id)
