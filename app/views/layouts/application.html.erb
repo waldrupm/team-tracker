@@ -11,8 +11,11 @@
   </head>
   <body>
     <main class="flex">
-    <%= render "shared/navbar" %>
-      <div class="px-10 py-12">
+      <%= render "shared/navbar" %>
+      <div class="px-10 py-12 flex-grow">
+        <% flash.each do |message_type, message| %>
+          <%= content_tag(:div, message, class: "inline-block #{message_type == "error" ? 'bg-red-700' : 'bg-green-700'} text-white border-1 rounded-md p-2 text-sm my-4") %>
+        <% end %>
         <%= yield %>
       </div>
     </main>

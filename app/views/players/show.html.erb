@@ -4,3 +4,5 @@
 <p>Drafted: <%= @player.drafted ? 'Yes' : 'No' %></p>
 <p>Rating: <%= @player.rating %></p>
 <p>Team: <%= @player.team.name %></p>
+
+<%= link_to "Delete Player", delete_player_path(@player), data: { "turbo-method": :delete } , class: "mb-6 bg-indigo-600 border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-white hover:bg-indigo-800"%>

@@ -13,7 +13,6 @@ describe "the players index page" do
     expect(page).to have_content(player2.name)
     expect(page).to have_content(player2.rating)
     expect(page).to_not have_content(player3.name)
-    expect(page).to_not have_content('No')
     expect(page).to_not have_content(player3.rating)
   end
 end
