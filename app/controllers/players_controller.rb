@@ -1,5 +1,5 @@
 class PlayersController < ApplicationController
-  before_action :set_player, only: [:show, :edit]
+  before_action :set_player, only: [:show, :edit, :update]
   def index
     @players = Player.all
   end
@@ -23,6 +23,16 @@ class PlayersController < ApplicationController
   end
   
   def edit
+    @team = @player.team
+    @form_path = update_player_path(@player)
+  end
+
+  def update
+    if @player.update(player_params)
+      redirect_to player_url(@player), notice: "Player was successfully updated."
+    else
+      render :edit, status: :unprocessable_entity
+    end
   end
 
   private

@@ -23,7 +23,6 @@ feature 'User creates a new player' do
     check 'Drafted'
     click_on "Create Player"
 
-    puts current_path
     expect(page).to have_content("Name can't be blank")
     expect(page).to have_http_status(:unprocessable_entity)
   end
