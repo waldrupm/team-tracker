@@ -1,5 +1,5 @@
 class PlayersController < ApplicationController
-  before_action :set_player, only: [:show, :edit, :update]
+  before_action :set_player, only: [:show, :edit, :update, :destroy]
   def index
     @players = Player.where(drafted: true).order(name: :asc)
   end
@@ -34,6 +34,11 @@ class PlayersController < ApplicationController
       @team = @player.team
       render :edit, status: :unprocessable_entity
     end
+  end
+
+  def destroy
+    @player.destroy
+    redirect_to players_path, status: :see_other, notice: "Player was successfully destroyed."
   end
 
   private

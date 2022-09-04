@@ -1,5 +1,5 @@
 class TeamsController < ApplicationController
-  before_action :set_team, only: %i[player_list edit update]
+  before_action :set_team, only: %i[player_list edit update destroy]
   def index
     @teams = Team.order(created_at: :desc)
   end
@@ -34,6 +34,11 @@ class TeamsController < ApplicationController
       else
         render :edit, status: :unprocessable_entity
       end
+  end
+
+  def destroy
+    @team.destroy
+    redirect_to teams_url, status: :see_other, notice: "Team was successfully destroyed."
   end
 
   def player_list

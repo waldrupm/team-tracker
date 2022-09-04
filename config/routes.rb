@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get '/teams/:id', to: 'teams#show', as: 'team'
   get '/teams/:id/edit', to: 'teams#edit', as: 'edit_team'
   patch '/teams/:id', to: 'teams#update'
+  delete '/teams/:id', to: 'teams#destroy', as: 'delete_team'
   
   get '/teams/:team_id/players/new', to: 'players#new', as: 'new_team_player'
   get '/teams/:id/players', to: 'teams#player_list', as: 'team_player_list'
@@ -15,6 +16,7 @@ Rails.application.routes.draw do
   get '/players/:id', to: 'players#show', as: 'player'
   get '/players/:id/edit', to: 'players#edit', as: 'edit_player'
   patch '/players/:id', to: 'players#update', as: 'update_player'
+  delete '/players/:id', to: 'players#destroy', as: 'delete_player'
 
   root 'teams#index'
 end
