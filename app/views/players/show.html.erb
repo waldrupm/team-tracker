@@ -1,4 +1,6 @@
 <h2><%= @player.name %></h2>
+<%= link_to "Update Player", edit_player_path(@player), class: "mb-6 bg-indigo-600 border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-white hover:bg-indigo-800"%>
+
 <p>Drafted: <%= @player.drafted ? 'Yes' : 'No' %></p>
 <p>Rating: <%= @player.rating %></p>
 <p>Team: <%= @player.team.name %></p>

@@ -3,7 +3,7 @@
 
 <% @team.players.each do |player| %>
   <div>
-    <h3><%= player.name %></h3>
+    <h3 class="font-semibold text-indigo-800"><%= link_to player.name, player_path(player) %></h3>
     <p>Drafted: <%= player.drafted ? 'Yes' : 'No' %></p>
     <p>Rating: <%= player.rating %></p>
   </div>
