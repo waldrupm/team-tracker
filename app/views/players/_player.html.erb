@@ -1,0 +1,6 @@
+<div class="mb-2 border-2 rounded-md p-2">
+    <h3 class="font-semibold text-lg"><%= link_to player.name, player_path(player) %> - <%= player.team.name %></h3>
+    <p>Drafted: <%= player.drafted ? 'Yes' : 'No' %></p>
+    <p>Rating: <%= player.rating %></p>
+    <%= link_to "Edit Player", edit_player_path(player), class: "border border-transparent rounded-md shadow inline-block bg-indigo-800 my-1 px-2 py-2 text-sm font-semibold text-white hover:bg-indigo-400"%>
+  </div>

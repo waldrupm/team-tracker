@@ -1,7 +1,7 @@
 class PlayersController < ApplicationController
   before_action :set_player, only: [:show, :edit, :update]
   def index
-    @players = Player.all
+    @players = Player.where(drafted: true).order(name: :asc)
   end
 
   def show

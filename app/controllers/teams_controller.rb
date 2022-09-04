@@ -36,7 +36,9 @@ class TeamsController < ApplicationController
       end
   end
 
-  def player_list; end
+  def player_list
+    @players = @team.players.order(name: :asc)
+  end
 
   private
 
