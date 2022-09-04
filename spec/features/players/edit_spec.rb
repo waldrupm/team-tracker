@@ -20,4 +20,15 @@ feature 'User updates a player' do
     expect(page).to have_content(new_player_rating)
     expect(page).to have_content("Yes")
   end
+
+  scenario 'invalid player info causes redirect to edit form' do
+    original_player = create(:player)
+
+    visit edit_player_path(original_player)
+
+    fill_in "Player Name", with: ""
+    click_on "Update Player"
+
+    expect(page).to have_content("Name can't be blank")
+  end
 end

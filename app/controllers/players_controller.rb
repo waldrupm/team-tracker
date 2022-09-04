@@ -31,6 +31,7 @@ class PlayersController < ApplicationController
     if @player.update(player_params)
       redirect_to player_url(@player), notice: "Player was successfully updated."
     else
+      @team = @player.team
       render :edit, status: :unprocessable_entity
     end
   end
