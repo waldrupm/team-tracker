@@ -13,7 +13,7 @@ Usability: Users should be able to use the site easily. This means making sure t
 
 Iteration 1
 CRUD
-[ ] done
+[x] done
 
 User Story 1, Parent Index 
 
@@ -21,7 +21,7 @@ For each parent table
 As a visitor
 When I visit '/parents'
 Then I see the name of each parent record in the system
-[ ] done
+[x] done
 
 User Story 2, Parent Show 
 
@@ -29,21 +29,21 @@ As a visitor
 When I visit '/parents/:id'
 Then I see the parent with that id including the parent's attributes:
 - data from each column that is on the parent table
-[ ] done
+[x] done
 
 User Story 3, Child Index 
 
 As a visitor
 When I visit '/child_table_name'
 Then I see each Child in the system including the Child's attributes:
-[ ] done
+[x] done
 
 User Story 4, Child Show 
 
 As a visitor
 When I visit '/child_table_name/:id'
 Then I see the child with that id including the child's attributes:
-[ ] done
+[x] done
 
 User Story 5, Parent Children Index 
 
@@ -51,7 +51,7 @@ As a visitor
 When I visit '/parents/:parent_id/child_table_name'
 Then I see each Child that is associated with that Parent with each Child's attributes:
 ActiveRecord
-[ ] done
+[x] done
 
 User Story 6, Parent Index sorted by Most Recently Created 
 
@@ -59,7 +59,7 @@ As a visitor
 When I visit the parent index,
 I see that records are ordered by most recently created first
 And next to each of the records I see when it was created
-[ ] done
+[x] done
 
 User Story 7, Parent Child Count
 
@@ -67,21 +67,21 @@ As a visitor
 When I visit a parent's show page
 I see a count of the number of children associated with this parent
 Usability
-[ ] done
+[x] done
 
 User Story 8, Child Index Link
 
 As a visitor
 When I visit any page on the site
 Then I see a link at the top of the page that takes me to the Child Index
-[ ] done
+[x] done
 
 User Story 9, Parent Index Link
 
 As a visitor
 When I visit any page on the site
 Then I see a link at the top of the page that takes me to the Parent Index
-[ ] done
+[x] done
 
 User Story 10, Parent Child Index Link
 
@@ -92,7 +92,7 @@ Iteration 1 will be reviewed at your second check-in
 
 Iteration 2
 CRUD
-[ ] done
+[x] done
 
 User Story 11, Parent Creation 
 
@@ -106,7 +106,7 @@ And I click the button "Create Parent" to submit the form
 Then a `POST` request is sent to the '/parents' route,
 a new parent record is created,
 and I am redirected to the Parent Index page where I see the new Parent displayed.
-[ ] done
+[x] done
 
 User Story 12, Parent Update 
 
@@ -120,7 +120,7 @@ And I click the button to submit the form
 Then a `PATCH` request is sent to '/parents/:id',
 the parent's info is updated,
 and I am redirected to the Parent's Show page where I see the parent's updated info
-[ ] done
+[x] done
 
 User Story 13, Parent Child Creation 
 
@@ -134,7 +134,7 @@ And I click the button "Create Child"
 Then a `POST` request is sent to '/parents/:parent_id/child_table_name',
 a new child object/row is created for that parent,
 and I am redirected to the Parent Childs Index page where I can see the new child listed
-[ ] done
+[x] done
 
 User Story 14, Child Update 
 
@@ -148,7 +148,7 @@ Then a `PATCH` request is sent to '/child_table_name/:id',
 the child's data is updated,
 and I am redirected to the Child Show page where I see the Child's updated information
 ActiveRecord
-[ ] done
+[x] done
 
 User Story 15, Child Index only shows `true` Records 
 
